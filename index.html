@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Simple Tailwind Starter</title>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body id="home" class="bg-gray-200">
+    <nav class="bg-blue-100 ">
+        <div class="hidden md:block">
+            <div class="flex justify-between items-center h-24 ">
+                <div class="flex space-x-4 ml-4">
+                    <a href="#">Home</a>
+                    <a href="#blogs">Blogs</a>
+                    <a href="#footer">Contact</a>
+                </div>
+                <div>
+                    <img src="/images/new-sudo.png" alt="" class="h-20 w-20">
+                </div>
+                <div class="flex space-x-4 mr-4">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="block md:hidden">
+            <div class="flex justify-between items-center h-24">
+                <div class="flex ml-4">
+                    <img src="/images/new-sudo.png" alt="" class="h-20 w-20">
+                </div>
+                <div class="flex ml-4">
+                    <button> <i class="fa-solid fa-bars"></i></button>
+                </div>
+            </div>
+
+            <div class="hidden">
+                <div class="flex flex-col text-xl ml-4">
+                    <a href="#" class="p-3">Home</a>
+                    <a href="#" class="p-3">Blogs</a>
+                    <a href="#" class="p-3">Contact</a>
+
+                </div>
+                <div class="flex ml-4 space-x-4">
+                    <a href="" class="p-3"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="p-3"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="" class="p-3"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="p-3"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-gradient-to-r from-blue-200  lg:p-10 md:p-5">
+        <div class="grid md:grid-cols-2 grid-cols-1">
+            <div id="intro-text"
+                class="flex flex-col justify-center align-middle text-center md:text-left p-2 lg:p-10 md:p-5 mb-5 animate__animated animate__backInLeft">
+                <h1 class="text-sm ">Hello, I am <i class="fas fa-code"></i></h1>
+                <h1 class="lg:text-6xl md:text-4xl text-3xl mt-1">Nilesh Wankhade</h1>
+                <h1 class="lg:text-4xl md:text-3xl text-2xl mt-4">Web UI/UX Designer</h1>
+                <p class="text-sm md:mt-14 mt-9">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt in cum quae.
+                </p>
+
+                <div class="flex space-x-4 mr-4 mt-5 justify-center md:justify-start">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div id="intro-image" class="flex flex-col justify-center align-middle p-3 lg:p-10 md:p-10 animate__animated animate__backInRight">
+                <img src="/images/undraw_on_the_office_fbfs.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="blogs" class="p-10">
+        <div class="mb-10">
+            <h1 class="text-5xl">Blogs</h1>
+        </div>
+        <div class="grid lg:grid-cols-5 md:grid-cols-3 gap-5 animate__animated animate__zoomIn">
+            <div class="rounded-xl bg-blue-200 p-8">
+                <img src="/images/blog1.jpg" alt="" class="rounded-xl">
+                <h1 class="text-2xl mt-6 font-bold">Learn Html</h1>
+                <p class="mt-3 text-sm"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non!</p>
+            </div>
+            <div class="rounded-xl bg-pink-200 p-8">
+                <img src="/images/blog2.jpg" alt="" class="rounded-xl">
+                <h1 class="text-2xl mt-6 font-bold">Learn CSS</h1>
+                <p class="mt-3 text-sm"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non!</p>
+            </div>
+            <div class="rounded-xl bg-yellow-200 p-8">
+                <img src="/images/blog3.jpg" alt="" class="rounded-xl">
+                <h1 class="text-2xl mt-6 font-bold">Git and Git Hub</h1>
+                <p class="mt-3 text-sm"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non!</p>
+            </div>
+            <div class="rounded-xl bg-green-200 p-8">
+                <img src="/images/blog4.jpg" alt="" class="rounded-xl">
+                <h1 class="text-2xl mt-6 font-bold">Learn Html</h1>
+                <p class="mt-3 text-sm"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non!</p>
+            </div>
+            <div class="rounded-xl bg-gray-300 p-8">
+                <img src="/images/blog5.jpg" alt="" class="rounded-xl">
+                <h1 class="text-2xl mt-6 font-bold">Learn Html</h1>
+                <p class="mt-3 text-sm"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non!</p>
+            </div>
+
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 mt-10 rounded-xl p-8 bg-blue-200">
+            <div>
+                <img src="/images/blog1.jpg" alt="" class="rounded-xl">
+            </div>
+            <div class="flex flex-col justify-center align-middle p-3 md:p-8">
+                <h1>Learn HTML</h1>
+                <p class="text-sm mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, obcaecati?
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="bg-gradient-to-l from-blue-200 lg:p-10 md:p-5 p-4">
+        <div class="mb-10">
+            <h1 class="text-5xl">Services</h1>
+        </div>
+        <div id="main-serviceGrid" class="grid md:grid-cols-2 grid-cols-1 gap-4">
+            <div id="first-service" class="grid grid-cols-12 bg-white rounded-xl">
+                <div id="service-icon" class="bg-blue-600 col-span-2 flex justify-center items-center rounded-l-xl">
+                    <i class="fas fa-laptop-code text-2xl text-white"></i>
+                </div>
+                <div id="description" class="px-3 py-5 col-span-10">
+                    <h1 class="text-2xl">Web Designing</h1>
+                    <p class="text-sm mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div id="second-service" class="grid grid-cols-12 bg-white rounded-xl">
+                <div id="service-icon" class="bg-blue-600 col-span-2 flex justify-center items-center rounded-l-xl">
+                    <i class="fas fa-laptop-code text-2xl text-white"></i>
+                </div>
+                <div id="description" class="px-3 py-5 col-span-10">
+                    <h1 class="text-2xl">Web Deployment</h1>
+                    <p class="text-sm mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div id="third-service" class="grid grid-cols-12 bg-white rounded-xl">
+                <div id="service-icon" class="bg-blue-600 col-span-2 flex justify-center items-center rounded-l-xl">
+                    <i class="fas fa-laptop-code text-2xl text-white"></i>
+                </div>
+                <div id="description" class="px-3 py-5 col-span-10">
+                    <h1 class="text-2xl">UI/UX</h1>
+                    <p class="text-sm mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div id="fourth-service" class="grid grid-cols-12 bg-white rounded-xl">
+                <div id="service-icon" class="bg-blue-600 col-span-2 flex justify-center items-center rounded-l-xl">
+                    <i class="fas fa-laptop-code text-2xl text-white"></i>
+                </div>
+                <div id="description" class="px-3 py-5 col-span-10">
+                    <h1 class="text-2xl">Digital Marketing</h1>
+                    <p class="text-sm mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div id="fifth-service" class="grid grid-cols-12 bg-white rounded-xl">
+                <div id="service-icon" class="bg-blue-600 col-span-2 flex justify-center items-center rounded-l-xl">
+                    <i class="fas fa-laptop-code text-2xl text-white"></i>
+                </div>
+                <div id="description" class="px-3 py-5 col-span-10">
+                    <h1 class="text-2xl">Logo Designing</h1>
+                    <p class="text-sm mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div id="sixth-service" class="grid grid-cols-12 bg-white rounded-xl">
+                <div id="service-icon" class="bg-blue-600 col-span-2 flex justify-center items-center rounded-l-xl">
+                    <i class="fas fa-laptop-code text-2xl text-white"></i>
+                </div>
+                <div id="description" class="px-3 py-5 col-span-10">
+                    <h1 class="text-2xl">Seo</h1>
+                    <p class="text-sm mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="md:p-10 p-3">
+        <div class="mb-10 mt-3">
+            <h1 class="text-5xl">portfolio</h1>
+        </div>
+
+        <div class="grid md:grid-cols-2 bg-white place-items-center">
+            <div id="web-description" class="flex flex-col justify-center align-middle p-3">
+                <h1 class="text-3xl">Freelancer portfolio</h1>
+                <p class="text-sm mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <ul class="mt-8 text-sm">
+                    <li>>Git/Github</li>
+                    <li>>CSS 3</li>
+                    <li>>Photoshop</li>
+                    <li>>web Deployment</li>
+                    <li>>HTML 5</li>
+                    <li class="mt-5"><button class="p-2 bg-blue-700 rounded text-white w-full">Visit <i class="fas fa-paper-plane"></i></button></li>
+                </ul>
+            </div>
+            <div id="web-image" class="p-3">
+                <img src="/images/freelancer-portfolio-740-600.jpg" alt="" class="w-3/4 border-2 rounded-xl">
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 bg-white place-items-center">
+            <div id="web-description" class="flex flex-col justify-center align-middle p-3 ">
+                <h1 class="text-3xl">Main Home</h1>
+                <p class="text-sm mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <ul class="mt-8 text-sm">
+                    <li>>Git/Github</li>
+                    <li>>CSS 3</li>
+                    <li>>Photoshop</li>
+                    <li>>web Deployment</li>
+                    <li>>HTML 5</li>
+                    <li class="mt-5"><button class="p-2 bg-blue-700 rounded text-white w-full">Visit <i class="fas fa-paper-plane"></i></button></li>
+                </ul>
+            </div>
+            <div id="web-image" class="p-3">
+                <img src="/images/main-home-740-600.jpg" alt="" class="w-3/4 border-2 rounded-xl">
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="p-20 text-center bg-gray-900">
+     <i class="fas fa-star mb-4 text-white"></i>
+     <h1 class="text-white my-3 md:text-4xl">nwankhade33@gmail.com</h1>
+     <div class="my-10  text-sm text-gray-500">
+        <a href="" class="p-3 hover:text-gray-100"><i class="fa-brands fa-facebook"></i></a>
+        <a href="" class="p-3 hover:text-gray-100"><i class="fa-brands fa-twitter"></i></a>
+        <a href="" class="p-3 hover:text-gray-100"><i class="fa-brands fa-instagram"></i></a>
+        <a href="" class="p-3 hover:text-gray-100"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    </footer>
+    <div class="fixed p-3 bottom-0 right-0">
+       <a href="#home" class="text-blue-500 text-4xl"><i class="fas fa-arrow-alt-circle-up"></i></a>
+    </div>
+</body>
+
+</html>
